@@ -123,6 +123,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "smart-angular"
+    }
+  },
+  "defaultProject": "smart-angular",
+  "cli": {
+    "analytics": false
+  }
 }
