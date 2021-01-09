@@ -1,1 +1,11 @@
 /* You can add global styles to this file, and also import other style files */
+.main-banner {
+  background: url("assets/images/bg.jpg") 100% no-repeat;
+  height: calc(100vh - 60px);
+  .main-content {
+    padding: calc((100vh - 380px) / 2) 0;
+  }
+  .img-banner {
+    border-radius: 5px;
+  }
+}

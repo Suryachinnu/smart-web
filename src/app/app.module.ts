@@ -10,6 +10,8 @@ import { SignupComponent } from './pages/signup/signup.component';
 import { SpendsComponent } from './pages/spends/spends.component';
 import { InvoiceSampleComponent } from './pages/invoice-sample/invoice-sample.component';
 import { HomeComponent } from './pages/home/home.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { HeaderComponent } from './pages/header/header.component';
 
 @NgModule({
   declarations: [
@@ -20,11 +22,13 @@ import { HomeComponent } from './pages/home/home.component';
     SignupComponent,
     SpendsComponent,
     InvoiceSampleComponent,
-    HomeComponent
+    HomeComponent,
+    HeaderComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    BrowserAnimationsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
